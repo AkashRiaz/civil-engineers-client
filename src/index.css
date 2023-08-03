@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hiring-btn{
+    background-color: rgb(255, 166, 0);
+    padding: 5px 25px;
+    color: white;
+    border-radius: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -35,7 +35,7 @@
   }
   
   .popup-image:hover {
-    transform: scale(1.1); /* Apply a slight scale increase on hover */
+    transform: scale(1.05); /* Apply a slight scale increase on hover */
   }
   
   .close-button {
@@ -52,8 +52,9 @@
   .popup-container.show .close-button {
     opacity: 1;
   }
-  
-  /* Ensure the rest of the content doesn't scroll when the popup is open */
+  .b-shape{
+    border-radius: 30px 70px 10px 90px;
+  }
   body.show-popup {
     overflow: hidden;
   }

@@ -58,14 +58,14 @@ const ImageGallery = () => {
           </button>
         </div>
         <ResponsiveMasonry>
-          <Masonry gutter='20px'>
+          <Masonry gutter='10px'>
             {filteredImages && filteredImages.map((image, i) => (
               <img
                 key={i}
                 src={image.imageLink}
                 style={{ width: '100%', display: 'block' }}
                 alt=''
-                className='image-g'
+                className='image-g b-shape'
                 onClick={() => handleImageClick(image)}
               />
             ))}
