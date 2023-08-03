@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "imageLink": "https://images.pexels.com/photos/17631781/pexels-photo-17631781/free-photo-of-vista-di-positano.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "beautiful room"
+    },
+    {
+      "id": 2,
+      "imageLink": "https://images.pexels.com/photos/3337219/pexels-photo-3337219.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "buildings"
+    },
+    {
+      "id": 3,
+      "imageLink": "https://images.pexels.com/photos/2129793/pexels-photo-2129793.png?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    },
+    {
+      "id": 4,
+      "imageLink": "https://images.pexels.com/photos/17365020/pexels-photo-17365020/free-photo-of-tiger-lying-down-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "beautiful room"
+    },
+    {
+      "id": 5,
+      "imageLink": "https://images.pexels.com/photos/17446490/pexels-photo-17446490/free-photo-of-ermita-del-miracle-dels-peixets-church.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "buildings"
+    },
+    {
+      "id": 6,
+      "imageLink": "https://images.pexels.com/photos/4807213/pexels-photo-4807213.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    },
+    {
+      "id": 7,
+      "imageLink": "https://images.pexels.com/photos/4807213/pexels-photo-4807213.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    },
+    {
+      "id": 8,
+      "imageLink": "https://images.pexels.com/photos/17729731/pexels-photo-17729731/free-photo-of-light-sea-dawn-sunset.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    },
+    {
+      "id": 9,
+      "imageLink": "https://images.pexels.com/photos/4807213/pexels-photo-4807213.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    },
+    {
+      "id": 10,
+      "imageLink": "https://images.pexels.com/photos/4807213/pexels-photo-4807213.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "category": "duplex-building"
+    }
+  ]
+  
