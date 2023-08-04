@@ -18,7 +18,7 @@ const TopEngineers = () => {
   return (
     <div>
       <h2>Top Engineers</h2>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-x-8 gap-y-16">
+      <div className="grid md:grid-cols-3 grid-cols-1 mx-auto gap-x-8 gap-y-16">
         {topSixEngineers.map(engineer => {
           return (
             <div key={engineer._id}>

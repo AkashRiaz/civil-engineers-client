@@ -3,8 +3,8 @@ import './TopEngineerCard.css'
 import { Link } from 'react-router-dom';
 
 const TopEngineerCard = ({engineer}) => {
-    const {name, title, description} = engineer;
-    const id =109;
+    const {_id,name, title, description} = engineer;
+    // const id =109;
     return (
         <div className='md:mx-5'>
             <div className='single-card'>
@@ -16,7 +16,7 @@ const TopEngineerCard = ({engineer}) => {
                   <h3 className='text-sm font-semibold'>{title}</h3>
                   <p className='text-xs font-light '>{description.slice(0, 300)}....</p>
                   <div>
-                  <Link className='hiring-btn mt-2' to={`/engineers/${id}`}>Profile</Link>
+                  <Link className='hiring-btn mt-2' to={`/engineers/${_id}`}>Profile</Link>
                   </div>
                </div>
                <div className='review'>

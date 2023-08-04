@@ -22,7 +22,7 @@ import AllEngineers from "../pages/AllEngineers/AllEngineers";
       {
         path:'engineers/:id',
         element:<EngineerProfile></EngineerProfile>,
-        // loader:()=>fetch()
+        loader:({params})=>fetch(`http://localhost:5000/engineers/${params.id}`)
       }
     ]
     },
