@@ -3,7 +3,8 @@ import HeroSlider from '../HeroSlider/HeroSlider';
 import OurFeatured from '../OurFeatured/OurFeatured';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import TopEngineers from '../TopEngineers/TopEngineers';
-import TopEngineerCard from '../TopEngineers/TopEngineerCard';
+
+import Countup from '../../../components/CountUp/CountUp';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
            <OurFeatured></OurFeatured>
            <ImageGallery></ImageGallery>
            <TopEngineers></TopEngineers>
-           {/* <TopEngineerCard></TopEngineerCard> */}
+           <Countup></Countup>
         </div>
     );
 };

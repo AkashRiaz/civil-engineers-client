@@ -40,20 +40,20 @@ const ImageGallery = () => {
   
     return (
       <div className='p-4 my-14'>
-        <div className='space-x-2 space-y-1 text-center mb-3'> 
-          <button className='btn btn-primary' onClick={() => filterSelectItem('all')}>
+        <div className='text-center mb-3'> 
+          <button className='common-btn btn1' onClick={() => filterSelectItem('all')}>
             All
           </button>
-          <button className='btn btn-primary' onClick={() => filterSelectItem('beautiful room')}>
+          <button className='common-btn reverse btn2' onClick={() => filterSelectItem('beautiful room')}>
             House
           </button>
-          <button className='btn btn-primary' onClick={() => filterSelectItem('buildings')}>
+          <button className='common-btn btn1' onClick={() => filterSelectItem('buildings')}>
             Building
           </button>
-          <button className='btn btn-primary' onClick={() => filterSelectItem('buildings')}>
+          <button className='common-btn reverse btn2' onClick={() => filterSelectItem('buildings')}>
             Duplex
           </button>
-          <button className='btn btn-primary' onClick={() => filterSelectItem('buildings')}>
+          <button className='common-btn btn1' onClick={() => filterSelectItem('buildings')}>
             Room
           </button>
         </div>
